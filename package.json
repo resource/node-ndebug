@@ -1,5 +1,5 @@
 {
-    "name": "node-inspector-launcher",
+    "name": "idebug",
     "preferGlobal": "true",
     "version": "0.1.0",
     "description": "Easily launch interactive debugging sessions for your Node scripts.",
@@ -7,8 +7,9 @@
         "name": "Kris Schultz",
         "email": "kristopher@writeme.com"
     },
+    "main": "./lib/idebug",
     "bin": {
-        "ni-launch": "index.js"
+        "idebug": "index.js"
     },
     "repository": {
       "type": "git",
