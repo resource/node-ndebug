@@ -5,7 +5,7 @@
   "devDependencies": {},
   "preferGlobal": "true",
   "bin": {
-    "debugnode": "debugnode.js"
+    "ni-launch": "index.js"
   },
   "dependencies": {
     "node-inspector": "~0.7.0-1"
