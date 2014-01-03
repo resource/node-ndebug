@@ -2,6 +2,7 @@
 
 var exec = require("child_process").exec;
 var spawn = require("child_process").spawn;
+var fork = require('child_process').fork;
 var format = require("util").format;
 
 var nodeScriptFile = process.argv[2];
@@ -9,8 +10,7 @@ var nodeScriptArgs = process.argv.slice(3, process.argv.length);
 var inspectorUrl = "http://127.0.0.1:8080/debug?port=5858";
 
 // Launch node-inspector.
-spawn("node-inspector", []);
-
+spawn(require.resolve('node-inspector/bin/inspector'), []);
 
 // Launch script to be debugged.
 var debugScriptRunning = true;

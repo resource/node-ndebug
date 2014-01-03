@@ -1,2 +1,7 @@
-var message = "Hello world";
-console.log(message);
+
+function sayHi() {
+	var message = "Hello world";
+	console.log(message);
+}
+
+sayHi();
