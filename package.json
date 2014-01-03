@@ -1,0 +1,13 @@
+{
+  "name": "node-inspector-launcher",
+  "version": "0.1.0",
+  "description": "Easily launch interactive debugging sessions for your Node scripts.",
+  "devDependencies": {},
+  "preferGlobal": "true",
+  "bin": {
+    "debugnode": "debugnode.js"
+  },
+  "dependencies": {
+    "node-inspector": "~0.7.0-1"
+  }
+}
