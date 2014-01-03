@@ -1,13 +1,31 @@
 {
-  "name": "node-inspector-launcher",
-  "version": "0.1.0",
-  "description": "Easily launch interactive debugging sessions for your Node scripts.",
-  "devDependencies": {},
-  "preferGlobal": "true",
-  "bin": {
-    "ni-launch": "index.js"
-  },
-  "dependencies": {
-    "node-inspector": "~0.7.0-1"
-  }
+    "name": "node-inspector-launcher",
+    "preferGlobal": "true",
+    "version": "0.1.0",
+    "description": "Easily launch interactive debugging sessions for your Node scripts.",
+    "author": {
+        "name": "Kris Schultz",
+        "email": "kristopher@writeme.com"
+    },
+    "bin": {
+        "ni-launch": "index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url:": "https://github.com/Krxtopher/node-inspector-launcher.git"
+    },
+    "keywords": [
+      "cli",
+      "debug",
+      "debugger",
+      "node-inspector"
+    ],
+    "devDependencies": {},
+    "dependencies": {
+        "node-inspector": "~0.7.0-1"
+    },
+    "license": "MIT",
+    "engines": {
+      "node": ">=0.10"
+    }
 }
