@@ -32,3 +32,7 @@ To pass arguments to your script simply append them after the command...
     $ ndebug myscript.js apple banana
 
 If, after your script has completed execution, you are not returned to a command prompt simply type **Control-C** to terminate the **ndebug** command.
+
+## To Note
+
+This tool currently uses port 8080 for communication between Chrome and **node-inspector**. Customization of this port number may be provided in a future release.
