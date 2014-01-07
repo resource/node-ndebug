@@ -5,7 +5,7 @@
     "description": "Easily launch interactive debugging sessions for your Node scripts.",
     "author": {
         "name": "Kris Schultz",
-        "email": "kristopher@writeme.com"
+        "email": "kris.schultz@gmail.com"
     },
     "main": "./lib/ndebug",
     "bin": {
@@ -13,8 +13,9 @@
     },
     "repository": {
       "type": "git",
-      "url:": "https://github.com/Krxtopher/node-inspector-launcher.git"
+      "url:": "https://github.com/Krxtopher/node-ndebug.git"
     },
+    "bugs": "https://github.com/Krxtopher/node-ndebug/issues",
     "keywords": [
       "cli",
       "debug",
