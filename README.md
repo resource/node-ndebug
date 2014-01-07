@@ -36,3 +36,9 @@ If, after your script has completed execution, you are not returned to a command
 ## To Note
 
 This tool currently uses port 8080 for communication between Chrome and **node-inspector**. Customization of this port number may be provided in a future release.
+
+## Example
+
+A simple example Node script has been provided for you to practice with. You'll find that example and instructions on how to use it here:
+
+[Simple Example](https://github.com/Krxtopher/node-ndebug/tree/master/examples/simple)
