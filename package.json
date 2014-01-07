@@ -1,5 +1,5 @@
 {
-    "name": "idebug",
+    "name": "ndebug",
     "preferGlobal": "true",
     "version": "0.1.0",
     "description": "Easily launch interactive debugging sessions for your Node scripts.",
@@ -7,9 +7,9 @@
         "name": "Kris Schultz",
         "email": "kristopher@writeme.com"
     },
-    "main": "./lib/idebug",
+    "main": "./lib/ndebug",
     "bin": {
-        "idebug": "index.js"
+        "ndebug": "index.js"
     },
     "repository": {
       "type": "git",
