@@ -1,3 +1,5 @@
+##*This is a draft. This tool is not yet ready for public consumption!*
+
 # ndebug
 
 Using **ndebug** you can easily launch the Google Chrome developer tools to interactively debug your Node.js scripts while they run, providing a very pleasant and extremely producitive debugging workflow.
