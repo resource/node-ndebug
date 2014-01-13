@@ -10,6 +10,10 @@ Under the hood, **ndebug** leverages the excellent [**node-inspector**](https://
 - Node.js must be installed
 - Google Chrome must be installed at the default location `/Applications/Google Chrome.app`
 
+## Quick Start
+
+Learn how to install and use **ndebug** in less than 2 minutes by [watching this video](https://vimeo.com/83617099). Or, continue reading...
+
 ## Installation
 
 Install **ndebug** globally using the following command...
