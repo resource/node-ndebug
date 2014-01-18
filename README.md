@@ -39,7 +39,7 @@ If, after your script has completed execution, you are not returned to a command
 
 ## To Note
 
-This tool currently uses port 8080 for communication between Chrome and **node-inspector**. Customization of this port number may be provided in a future release.
+This tool currently uses port 8543 for communication between Chrome and **node-inspector**. Customization of this port number may be provided in a future release.
 
 ## Example
 
